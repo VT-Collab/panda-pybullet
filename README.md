@@ -1,7 +1,6 @@
 # Panda Environment
 
-Simple PyBullet Environments for the Panda Robot Arm. Developed by the [ILIAD Lab](http://iliad.stanford.edu/), 
-primarily by [Dylan Losey](https://dylanlosey.com/).
+Simple PyBullet Environments for the Panda Robot Arm. Developed for the [Collab](https://collab.me.vt.edu/).
 
 ## Quickstart
 
@@ -9,8 +8,8 @@ Use these commands to quickly get set up with this repository, and start up the 
 
 ```bash
 # Clone the Repository
-git clone https://github.com/dylan-losey/panda-env.git
-cd panda-env
+git clone https://github.com/VT-Collab/panda-pybullet.git
+cd panda-pybullet
 
 # Create a Conda Environment using `environment.yml`
 conda env create -f environment.yml
@@ -25,7 +24,7 @@ the Quickstart section above.
 ```bash
 # Create & Activate Conda Environment
 conda create --name panda-env python=3.7
-conda activate panda-env
+conda activate panda-pybullet
 
 # Install Dependencies 
 pip install pybullet numpy
