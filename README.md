@@ -29,3 +29,12 @@ conda activate panda-pybullet
 # Install Dependencies 
 pip install pybullet numpy
 ```
+
+## How to Run
+
+This repo includes three sample environments, as well as the utility functions for assests (i.e., objects to interact with) and teleoperation (i.e., script for a joystick). The teleoperation environment (env_3) will not work run unless a joystick is attached!
+
+To see all three sample environments, run:
+```bash
+python3 main.py
+```
