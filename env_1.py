@@ -6,6 +6,8 @@ from panda import Panda
 from objects import YCBObject, InteractiveObj, RBOObject
 
 
+# my comment!
+
 class SimpleEnv():
 
     def __init__(self):
